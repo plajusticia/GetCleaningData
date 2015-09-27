@@ -89,6 +89,6 @@ The complete list of variables of each feature vector is available in 'features.
 The following Variables have been created along the process:
 
 
-* Each variable of DataSet_5 represent the average of feature grouped by each 
-Activity and each Subject.
+* The variables of DataSet_5 represents the average of each feature grouped by 
+each Activity and each Subject.
 
