@@ -25,6 +25,7 @@ The run_analysis script has got five phases that are described below:
 * Phase V Average of each variable for each activity and each subject
 
 ## Code book
+### Original Code Book
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -83,4 +84,11 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
+### Additional Code Book
+
+The following Variables have been created along the process:
+
+
+* Each variable of DataSet_5 represent the average of feature grouped by each 
+Activity and each Subject.
 
